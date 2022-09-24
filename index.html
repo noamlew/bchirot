@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="bchirot.css" />
+        <title>Bchirot</title>
+    </head>
+    <body>
+        <div id="tableDiv">
+            <table>
+                <tr align="center">
+                    <td>
+                        <from>
+                            <select class="type" id="condition1Name">
+                                <option value="בזק">בזק</option>
+                                <option value="בן סימון">בן סימון</option>
+                                <option value="ברמן">ברמן</option>
+                                <option value="דהן">דהן</option>
+                                <option value="דמרי">דמרי</option>
+                                <option value="דנינו">דנינו</option>
+                                <option value="וינברגר">וינברגר</option>
+                                <option value="יגאל">יגאל</option>
+                                <option value="יצהר">יצהר</option>
+                                <option value="לוין">לוין</option>
+                                <option value="ניימן">ניימן</option>
+                                <option value="נמיר">נמיר</option>
+                                <option value="סטפלמן">סטפלמן</option>
+                                <option value="סטש">סטש</option>
+                                <option value="שוורץ">שוורץ</option>
+                            </select>
+                        </from>
+                        <from>
+                            <select class="status" id="condition1Status">
+                                <option value="-">-</option>
+                                <option value="X">X</option>
+                                <option value="V">V</option>
+                            </select>
+                        </from>
+                    </td>
+
+                    <td>
+                        <from>
+                            <select class="type" id="condition2Name">
+                                <option value="בזק">בזק</option>
+                                <option value="בן סימון">בן סימון</option>
+                                <option value="ברמן">ברמן</option>
+                                <option value="דהן">דהן</option>
+                                <option value="דמרי">דמרי</option>
+                                <option value="דנינו">דנינו</option>
+                                <option value="וינברגר">וינברגר</option>
+                                <option value="יגאל">יגאל</option>
+                                <option value="יצהר">יצהר</option>
+                                <option value="לוין">לוין</option>
+                                <option value="ניימן">ניימן</option>
+                                <option value="נמיר">נמיר</option>
+                                <option value="סטפלמן">סטפלמן</option>
+                                <option value="סטש">סטש</option>
+                                <option value="שוורץ">שוורץ</option>
+                            </select>
+                        </from>
+                        <from>
+                            <select class="status" id="condition2Status">
+                                <option value="-">-</option>
+                                <option value="X">X</option>
+                                <option value="V">V</option>
+                            </select>
+                        </from>
+                    </td>
+
+                    <td>
+                        <from>
+                            <select class="type" id="condition3Name">
+                                <option value="בזק">בזק</option>
+                                <option value="בן סימון">בן סימון</option>
+                                <option value="ברמן">ברמן</option>
+                                <option value="דהן">דהן</option>
+                                <option value="דמרי">דמרי</option>
+                                <option value="דנינו">דנינו</option>
+                                <option value="וינברגר">וינברגר</option>
+                                <option value="יגאל">יגאל</option>
+                                <option value="יצהר">יצהר</option>
+                                <option value="לוין">לוין</option>
+                                <option value="ניימן">ניימן</option>
+                                <option value="נמיר">נמיר</option>
+                                <option value="סטפלמן">סטפלמן</option>
+                                <option value="סטש">סטש</option>
+                                <option value="שוורץ">שוורץ</option>
+                            </select>
+                        </from>
+                        <from>
+                            <select class="status" id="condition3Status">
+                                <option value="-">-</option>
+                                <option value="X">X</option>
+                                <option value="V">V</option>
+                            </select>
+                        </from>
+                    </td>
+
+                    <td>
+                        <from>
+                            <select class="type" id="condition4Name">
+                                <option value="בזק">בזק</option>
+                                <option value="בן סימון">בן סימון</option>
+                                <option value="ברמן">ברמן</option>
+                                <option value="דהן">דהן</option>
+                                <option value="דמרי">דמרי</option>
+                                <option value="דנינו">דנינו</option>
+                                <option value="וינברגר">וינברגר</option>
+                                <option value="יגאל">יגאל</option>
+                                <option value="יצהר">יצהר</option>
+                                <option value="לוין">לוין</option>
+                                <option value="ניימן">ניימן</option>
+                                <option value="נמיר">נמיר</option>
+                                <option value="סטפלמן">סטפלמן</option>
+                                <option value="סטש">סטש</option>
+                                <option value="שוורץ">שוורץ</option>
+                            </select>
+                        </from>
+                        <from>
+                            <select class="status" id="condition4Status">
+                                <option value="-">-</option>
+                                <option value="X">X</option>
+                                <option value="V">V</option>
+                            </select>
+                        </from>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="4">
+                        <div id="goButton">Go</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <table id="resultTable">
+            <tr align="center" width="500px">
+                <td width="250px" align="center">
+                    <div id="displayDivName">
+                        <p id="displayPName"></p>
+                    </div>
+                </td>
+                <td width="250px" align="center" >
+                    <div id="displayDivChoose">
+                        <p id="displayPChoose"></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+    <script type="module" src="main.js"></script>
+</html>

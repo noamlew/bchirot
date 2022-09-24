@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(195, 215, 252);
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+#tableDiv {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.type {
+    width: 100px;
+    height: 40px;
+    border-radius: 150px;
+    padding: 10px;
+    margin-left: 25px;
+    transition: 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.type:hover {
+    background-color: gainsboro;
+}
+
+.status {
+    width: 60px;
+    height: 35px;
+    border-radius: 150px;
+    padding: 10px;
+    transition: 0.2s;
+    font-size: 10px;
+    font-family: "Miriam Libre", sans-serif;
+}
+
+.status:hover {
+    background-color: gainsboro;
+}
+
+#goButton {
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    font-family: "Saira Stencil One", cursive;
+    transition: 0.2s;
+}
+
+#goButton:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+#goButton:active {
+    background-color: rgb(125, 125, 125);
+}
+
+#resultTable {
+    margin-top: 150px;
+}
+
+#displayDivName {
+    overflow: scroll;
+    height: 400px;
+    width:250px;
+    position: absolute;
+    padding-top: 30px;
+    padding: 10px;
+    margin-right: 100px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+#displayPName {
+    display: block;
+    font-size: 20px;
+    font-family: "Miriam Libre", sans-serif;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#displayDivChoose {
+    overflow: scroll;
+    height: 400px;
+    width:250px;
+    position: absolute;
+    padding-top: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+#displayPChoose {
+    display: block;
+    font-size: 15px;
+    font-family: "Miriam Libre", sans-serif;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
